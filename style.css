@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "iran-yekan";
+  src: url("./assets/fonts/IRANYekanWebMedium.woff2");
+  font-weight: 400;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "iran-yekan";
+  padding: 2rem;
+}
+
+.form-container {
+  background: white;
+  padding: 2rem;
+  /* margin: 0 2rem; */
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 0.7rem;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
+
+.error {
+  color: #d32f2f;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin: 4px 0 10px;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.invalid {
+  border: 1px solid #d32f2f;
+  background-color: #fff0f0;
+}
